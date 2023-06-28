@@ -1,0 +1,2 @@
+// Event StopPropagation - jai single a stop propagation lagano hoba sai ta chara sob disable hoiya jaba
+// Event StopimidatlyPropagation - jai single a stopimidatlypropagation lagano hoba sai tar asha pasha shoho sob disled hoiya jaba

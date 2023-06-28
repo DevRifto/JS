@@ -1,0 +1,18 @@
+Java Script Math Need to Know :
+
+1. 	Positive and Negative.
+2. 	Whole number (Integer). {There are two tips strting / numberic = Integer}
+3. 	fraction	(Float/decimal).
+4. 	addition/subtraction/Multiplication/Division.
+5. 	The end (Reminder).
+6. 	Percentage.
+7. 	Average (Gor sonkha).
+8. 	Comparison (choto/boro)
+9. 	<,>,=
+10.	Oikik Number.
+11.	Sum.
+12. odd /Even.
+13.	Prime (mulik Sonkha).
+14.	Goshago/ loshago
+15.	How to find area of triangle.
+

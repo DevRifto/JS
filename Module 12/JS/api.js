@@ -1,0 +1,1 @@
+// Api (application programming interface) : is like waiter or messager who send the request or message and come with the response or result.

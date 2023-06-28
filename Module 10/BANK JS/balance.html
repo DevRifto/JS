@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl font-semibold text-center mt-5">RIFATO'S <span class="text-purple-500">BALANCE</span></h1>
+    </header>
+    <main>
+        <section class="grid grid-cols-3 gap-4 mt-10 w-9/12 mx-auto ">
+            <!-- -----------------------------------DEPOSITE -->
+            <div class=" bg-green-500 p-7 text-white rounded-xl">
+                <p class="text-3xl">Deposit</p>
+                <p class="text-6xl">$<span id="deposit">00</span> </p>
+            </div>
+            <!-- -----------------------------------WIDRAW -->
+            <div class=" bg-purple-500 p-5 text-white rounded-xl">
+                <p class="text-3xl">WIDRAW</p>
+                <p class="text-6xl">$<span id="widraw">00</span> </p>
+            </div>
+            <!-- -----------------------------------BALANCE -->
+            <div class=" bg-yellow-600 p-5 text-white rounded-xl">
+                <p class="text-3xl">BALANCE</p>
+                <p class="text-6xl">$<span id="balance">1</span> </p>
+            </div>
+        </section>
+        <!-- ----------------------------------input -->
+        <section class="grid grid-cols-2 w-9/12 gap-2 mt-10 mx-auto ">
+            <div class="bg-green-500 p-10 rounded-2xl text-white">
+                <h1 class="text-3xl mb-2">PLEASE DEPOSITE</h1>
+                <input id="depositInput" class="text-black p-2 rounded-lg" type="text" placeholder="Deposite"> <br>
+                <button id="depositBtn" class="bg-yellow-500 p-2 rounded-lg mt-8 hover:bg-sky-700">SUBMIT</button>
+            </div>
+            <div class="bg-pink-500 p-10 rounded-2xl text-white">
+                <h1 class="text-3xl mb-2">PLEASE WIDRAW</h1>
+                <input id="widrawInput" class="text-black p-2 rounded-lg" type="text" placeholder="Widraw"> <br>
+                <button id="widrawBtn" class="bg-yellow-500 p-2 rounded-lg mt-8 hover:bg-sky-700">SUBMIT</button>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center mt-56">
+        <h1>© MADE BY RIFATO</h1>
+    </footer>
+</body>
+<script src="./JS/balance.js"></script>
+
+</html>

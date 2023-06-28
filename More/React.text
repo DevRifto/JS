@@ -1,0 +1,65 @@
+If Your are going to react you have to know this things :
+(1). 6 JS FUNDAMENTALS : {
+    1. Variables and Data Types: var , let , const
+    2. funtion();
+    3.Conditional Statements: if , else , if-else
+    4.loops : for-loop , while-loop.
+    5. Arrays and Objects : [] , {}.
+    6.DOM (Document Object Model) Manipulation : easily : JavaScript can interact with the DOM to dynamically change content, modify styles, handle events, and create interactive web pages.
+}
+(2). Template String : ` `;
+(3). Arrow funtion : const sum = () => {};
+(4). spraded oparator : const originalArray = [1, 2, 3];
+                        const newArray = [...originalArray];
+                        console.log(newArray); // Output: [1, 2, 3]
+
+(5).array methods : {
+    push() :--------------------const numbers = [1, 2, 3];
+                                numbers.push(4, 5);
+                                console.log(numbers); // Output: [1, 2, 3, 4, 5]
+    
+    pop():----------------------const numbers = [1, 2, 3, 4, 5];
+                                const removedElement = numbers.pop();
+                                console.log(removedElement); // Output: 5
+                                console.log(numbers); // Output: [1, 2, 3, 4]
+
+    unshift():------------------const numbers = [2, 3, 4, 5];
+                                numbers.unshift(1);
+                                console.log(numbers); // Output: [1, 2, 3, 4, 5]
+
+    shift():--------------------const numbers = [1, 2, 3, 4, 5];
+                                const removedElement = numbers.shift();
+                                console.log(removedElement); // Output: 1
+                                console.log(numbers); // Output: [2, 3, 4, 5]
+
+    concat():-------------------const array1 = [1, 2, 3];
+                                const array2 = [4, 5];
+                                const combinedArray = array1.concat(array2);
+                                console.log(combinedArray); // Output: [1, 2, 3, 4, 5]
+
+    slice():--------------------const numbers = [1, 2, 3, 4, 5];
+                                const slicedArray = numbers.slice(1, 4);
+                                console.log(slicedArray); // Output: [2, 3, 4]
+
+    splice():-------------------const numbers = [1, 2, 3, 4, 5];
+                                numbers.splice(2, 1, 'a', 'b');
+                                console.log(numbers); // Output: [1, 2, 'a', 'b', 4, 5]
+
+    indexOf():------------------const numbers = [1, 2, 3, 4, 5];
+                                const index = numbers.indexOf(3);
+                                console.log(index); // Output: 2
+    includes():-----------------const numbers = [1, 2, 3, 4, 5];
+                                const isIncluded = numbers.includes(3);
+                                console.log(isIncluded); // Output: true
+    forEach():------------------const numbers = [1, 2, 3];
+                                numbers.forEach((number) => {
+                                console.log(number);
+                                });
+                                // Output:
+                                // 1
+                                // 2
+                                // 3
+
+
+}
+
