@@ -1,0 +1,2 @@
+// So Event Loop is not a rocket since 🙄:
+// event loop is basically a prosses thats runs on v8 engine or javascript to make the javascript a none blocking ! non-blocking means that it will not stop for genarating big files .first it wil drop them in the quew for waiting and the easy one will execute and after that it will run the quew one
